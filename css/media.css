@@ -1,0 +1,68 @@
+/* Responsive navigation  bar */
+@media only screen and (max-width: 992px) {
+  .header {
+    height: 70px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+  }
+  .f-half {
+    width: 100vw;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .s-half {
+    margin-top: 30px;
+    width: 100vw;
+    height: 450px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .nav {
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .nav li {
+    padding: 3px 0px;
+  }
+  .m-list {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .jbtn {
+    margin: 0px;
+  }
+  .bar {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1215686275);
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+  }
+  .bar:hover {
+    background-color: rgba(0, 0, 0, 0.115);
+  }
+  .bar-high {
+    height: 445px !important;
+    transition: all 0.5s ease-in-out !important;
+  }
+  .drop-down {
+    position: static;
+  }
+  .drop-down-menu {
+    position: relative;
+    top: 0;
+  }
+  .logo-img {
+    display: none;
+  }
+  .text-lg-left {
+    text-align: center !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) *//*# sourceMappingURL=media.css.map */
